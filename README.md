@@ -4,6 +4,7 @@ This is the pytorch implmentation of GACNet on S3DIS.
   <img src="flowchart.jpg">
 </p>
 
+If you find this repository useful. Please consider giving a star :star:.
 ## Dependencies
 - Python 3.6
 - PyTorch 1.7
@@ -28,4 +29,6 @@ This is the pytorch implmentation of GACNet on S3DIS.
   cd tool
   python test.py
   ```
-If you find this repository useful. Please consider giving a star :star:.
+  
+## References
+This repo is built based on the Tensorflow implementation of [GACNet](https://github.com/wleigithub/GACNet). Thanks for their great work!
