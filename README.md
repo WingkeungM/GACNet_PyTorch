@@ -10,9 +10,22 @@ This is the pytorch implmentation of GACNet on S3DIS.
 - cuda 11
 
 
-## Train Model
-Run `python train.py`
+## Install pointnet2-ops
 
+  ```
+  cd pointnet2_ops_lib
+  python setup.py install
+  ```
+  
+## Train Model
+  ```
+  cd tool
+  python train.py
+  ```
 
 ## Test Model
-Run `python test.py`
+  ```
+  cd tool
+  python test.py
+  ```
+If you find this repository useful. Please consider giving a star :star:.
